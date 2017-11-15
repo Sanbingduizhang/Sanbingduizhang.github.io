@@ -1,0 +1,234 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../img/jiang.jpg');
+}
+
+#title {
+    height: 80px;
+    /* background-color: #ff0000;
+     */
+    /* background-image: url('../img/jiang.jpg'); */
+    /* position: relative; */
+}
+
+.header {
+    width: 1049px;
+    height: 80px;
+    margin-left: 150px;
+    /* background-color: #ED7D31; */
+}
+
+.header .header-left li {
+    display: block;
+    height: 60px;
+    width: 60px;
+    float: left;
+    text-align: center;
+    line-height: 60px;
+    margin-left: 107px;
+    margin-top: 10px;
+    border: 1px solid #ED7D31;
+    border-radius: 50%;
+    /* background-color: #ED7D31; */
+}
+
+a {
+    display: block;
+    height: 60px;
+    width: 60px;
+}
+
+a:hover {
+    background-color: #ED7D31;
+    border-radius: 50%;
+}
+
+.header .header-left li:nth-child(1) {
+    margin-left: 0;
+}
+
+.header .header-right li {
+    display: block;
+    height: 60px;
+    width: 60px;
+    float: right;
+    text-align: center;
+    line-height: 60px;
+    margin-top: 10px;
+    border-radius: 50%;
+    background-color: #ED7D31;
+}
+
+.header .header-right li:nth-child(2) {
+    margin-right: 20px;
+}
+
+
+/* #contanier {
+    background-image: url('../img/jiang.jpg');
+} */
+
+#mid {
+    height: 300px;
+    width: 1349px;
+    /* margin-top: 15px; */
+    margin-bottom: 15px;
+    /* float: left; */
+    /* background-color: #ed7fee; */
+    /* overflow: hidden; */
+}
+
+.mid-mid {}
+
+.mid-left {
+    height: 300px;
+    width: 730px;
+    margin-left: 150px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+.arrow {
+    display: none;
+}
+
+.mid-left:hover .arrow {
+    display: block;
+}
+
+.arrow-left,
+.arrow-right {
+    font-family: "SimSun", "宋体";
+    width: 30px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.arrow-left {
+    left: 0;
+}
+
+.arrow-right {
+    right: 0;
+}
+
+.mid-left li img {
+    height: 300px;
+    width: 730px;
+}
+
+.mid-right {
+    height: 300px;
+    width: 300px;
+    margin-right: 150px;
+    float: right;
+    /* background-color: #edef3e; */
+    /*background-image: url('../img/xiao.jpg');*/
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+}
+
+.mid-mid .mid-right li {
+    height: 60px;
+    width: 150px;
+    /* background-color: #7c3eef; */
+    float: left;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+
+
+/* .mid-mid .mid-right li:hover {
+    background-color: #ED7D31;
+} */
+
+.mid-mid .mid-right li:hover span {
+    display: block;
+}
+
+.mid-mid .mid-right li span {
+    /* display: block; */
+    width: 148px;
+    position: absolute;
+    bottom: 0;
+    border: 1px solid #ED7D31;
+    display: none;
+}
+
+.mid-mid .mid-right .right-content {
+    height: 240px;
+    width: 300px;
+    overflow: hidden;
+}
+
+.mid-mid .mid-right .right-content li {
+    height: 240px;
+    width: 300px;
+    /* background-color: #7c3eef; */
+}
+
+#content {
+    height: 520px;
+}
+
+
+.content-mid {
+    width: 1049px;
+    margin-left: 150px;
+    background-image: url('../img/timg.jpg');
+    background-size: 1049px 450px;
+    background-repeat: no-repeat;
+}
+.content-button{
+    display: inline-block;
+    width: 1049px;
+    margin-top: -5px;
+    margin-left: 150px;
+    background-color: #0A246A;
+}
+button {
+    width: 50px;
+    height: 50px;
+    margin: 10px 31px;
+    border: 1px solid #9B410E;
+    border-radius: 50%;
+}
+#bottom {
+    height: 100px;
+    /* background-color: yellowgreen; */
+}
+
+
+.bottom-mid {
+    width: 1049px;
+    height: 100px;
+    margin-left: 150px;
+    background-color: yellow;
+}
+
+#clear {
+    clear: both;
+}
