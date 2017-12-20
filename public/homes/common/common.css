@@ -1,0 +1,320 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #8faf91;
+}
+
+#title {
+    height: 80px;
+    background-color: #8FAF91;
+}
+
+.header {
+    width: 1140px;
+    height: 80px;
+    margin-left: 105px;
+}
+
+.header .header-left li {
+    display: block;
+    height: 60px;
+    width: 60px;
+    float: left;
+    text-align: center;
+    line-height: 60px;
+    margin-left: 107px;
+    margin-top: 10px;
+    border: 1px solid #ED7D31;
+    border-radius: 50%;
+}
+
+.header .header-left li a {
+    display: block;
+    height: 60px;
+    width: 60px;
+}
+
+.header .header-left li:hover {
+    background-color: #ED7D31;
+    border-radius: 50%;
+}
+
+.header .header-left li:nth-child(1) {
+    margin-left: 0;
+}
+
+.header .header-right li {
+    display: block;
+    height: 60px;
+    width: 60px;
+    float: right;
+    text-align: center;
+    line-height: 60px;
+    margin-top: 10px;
+    border-radius: 50%;
+    background-color: rgb(237, 49, 68);
+}
+
+.header .header-right li a {
+    display: block;
+    height: 60px;
+    width: 60px;
+}
+
+.header .header-right li a:active {
+    color: blue;
+}
+
+.header .header-right li:nth-child(2) {
+    margin-right: 20px;
+}
+
+#contanier {
+    width: 1140px;
+    margin-left: 105px;
+    background-color: #a9bd4f;
+}
+
+
+/*页面登录隐藏区域样式*/
+
+#coverGo .login-header {
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+
+/*ul, li, ol, dl, dt, dd, div, p, span, h1, h2, h3, h4, h5, h6, a {*/
+
+
+/*padding: 0px;*/
+
+
+/*margin: 0px;*/
+
+
+/*}*/
+
+#coverGo .login {
+    width: 512px;
+    height: 280px;
+    position: absolute;
+    border: #ebebeb solid 1px;
+    left: 50%;
+    right: 50%;
+    background: #ffffff;
+    box-shadow: 0px 0px 20px #ddd;
+    z-index: 9999;
+    margin-left: -256px;
+    margin-top: 140px;
+    display: none;
+}
+
+#coverGo .login-title {
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    font-size: 18px;
+    position: relative;
+    cursor: move;
+    -moz-user-select: none;
+    /*火狐*/
+    -webkit-user-select: none;
+    /*webkit浏览器*/
+    -ms-user-select: none;
+    /*IE10*/
+    -khtml-user-select: none;
+    /*早期浏览器*/
+    user-select: none;
+}
+
+#coverGo .login-input-content {
+    margin-top: 20px;
+}
+
+#coverGo .login-button {
+    width: 50%;
+    margin: 30px auto 0px auto;
+    line-height: 40px;
+    font-size: 14px;
+    border: #ebebeb 1px solid;
+    text-align: center;
+}
+
+#coverGo .login-bg {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: #000000;
+    filter: alpha(opacity=30);
+    -moz-opacity: 0.3;
+    -khtml-opacity: 0.3;
+    opacity: 0.3;
+    display: none;
+}
+
+#coverGo a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#coverGo .login-button a {
+    display: block;
+}
+
+#coverGo .login-input input.list-input {
+    float: left;
+    line-height: 35px;
+    height: 35px;
+    width: 350px;
+    border: #ebebeb 1px solid;
+    text-indent: 5px;
+}
+
+#coverGo .login-input {
+    overflow: hidden;
+    margin: 0px 0px 20px 0px;
+}
+
+#coverGo .login-input label {
+    float: left;
+    width: 90px;
+    padding-right: 10px;
+    text-align: right;
+    line-height: 35px;
+    height: 35px;
+    font-size: 14px;
+}
+
+#coverGo .login-title span {
+    position: absolute;
+    font-size: 12px;
+    right: -20px;
+    top: -30px;
+    background: #ffffff;
+    border: #ebebeb solid 1px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+
+/*底部样式*/
+
+#bottom {
+    width: 100%;
+    background-color: #515151;
+}
+
+#bottom .bannerd {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+#bottom .bannerd .bannerdt {
+    height: 127px;
+    width: 100%;
+    border-bottom: 1px solid #5f5f5f;
+}
+
+#bottom .bannerd .bannerdt .banttt {
+    width: 300px;
+    height: 55px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 37px;
+}
+
+#bottom .bannerd .bannerdt .bant1 img {
+    margin-top: -20px;
+    border-radius: 50px;
+}
+
+#bottom .bannerd .bannerdt .bant2 li {
+    float: left;
+    font-size: 14px;
+    color: #fff;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+#bottom .bannerd .bannerdt .bant2 li:first-child {
+    margin-left: 0;
+}
+
+#bottom .bannerd .bannerdt .bant2 a {
+    color: #fff;
+    margin-right: 10px;
+}
+
+#bottom .bannerd .bannerdt .bant2 li:last-child a {
+    margin-right: 0;
+}
+
+#bottom .bannerd .bannerdt .bant2 .shenhe {
+    float: left;
+    font-size: 12px;
+    color: #999;
+    width: 300px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#bottom .bannerd .bannerdt .bant2 .shenhe span {
+    margin-right: 23px;
+}
+
+#bottom .bannerd .bannerdt .bant3 {
+    line-height: 55px;
+    margin-left: 120px;
+}
+
+#bottom .bannerd .bannerdt .bant3 .guanwo {
+    float: left;
+    color: #fff;
+}
+
+#bottom .bannerd .bannerdt .bant3 .guanzhu img {
+    width: 127px;
+    margin-top: -37px;
+    margin-left: 40px;
+}
+
+#bottom .bannerd .bannerdb {
+    height: 73px;
+    width: 100%;
+    font-size: 12px;
+    color: #999;
+    margin-top: 16px;
+}
+
+#bottom .bannerd .bannerdb .banndbt a {
+    margin-right: 18px;
+    color: #999;
+}
+
+#bottom .bannerd .bannerdb .banndbt .zzz {
+    float: left;
+    margin-left: 60px;
+}
+
+#bottom .bannerd .bannerdb .banndbt li {
+    float: left;
+    margin-left: 18px;
+}
+
+#clear {
+    clear: both;
+}

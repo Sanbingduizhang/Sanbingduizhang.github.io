@@ -1,0 +1,507 @@
+.header .header-left li.shouye {
+    background-color: #ED7D31;
+}
+
+#mid {
+    height: 300px;
+    margin-bottom: 15px;
+}
+
+.mid-mid {}
+
+.mid-left {
+    height: 300px;
+    width: 730px;
+    /*margin-left: 105px;*/
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+.arrow {
+    display: none;
+}
+
+.mid-left:hover .arrow {
+    display: block;
+}
+
+.arrow-left,
+.arrow-right {
+    font-family: "SimSun", "宋体";
+    width: 30px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.arrow-left {
+    left: 0;
+}
+
+.arrow-right {
+    right: 0;
+}
+
+.mid-left li img {
+    height: 300px;
+    width: 730px;
+}
+
+.mid-right {
+    height: 300px;
+    width: 300px;
+    margin-left: 110px;
+    float: left;
+    background-color: #edef3e;
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+}
+
+.mid-mid .mid-right li {
+    height: 60px;
+    width: 150px;
+    float: left;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.mid-mid .mid-right li:hover span {
+    display: block;
+}
+
+.mid-mid .mid-right li span {
+    /*display: block;*/
+    width: 148px;
+    position: absolute;
+    bottom: 0;
+    border: 1px solid #ED7D31;
+    display: none;
+}
+
+.mid-mid .mid-right .right-content {
+    height: 240px;
+    width: 300px;
+    overflow: hidden;
+}
+
+.mid-mid .mid-right .right-content li {
+    height: 240px;
+    width: 300px;
+}
+
+#content {
+    height: 1400px;
+}
+
+
+/*班级推荐的css样式*/
+
+#contanier #content .banji {
+    height: 28px;
+    width: 1140px;
+    margin-top: 60px;
+    float: left;
+    position: relative;
+}
+
+#contanier #content .banji .hrl {
+    float: left;
+    position: absolute;
+    top: 14px;
+}
+
+#contanier #content .banji .banjit {
+    font-size: 24px;
+    line-height: 28px;
+    position: absolute;
+    left: 522px;
+}
+
+#contanier #content .banji .hrr {
+    float: left;
+    position: absolute;
+    top: 14px;
+    right: 0;
+}
+
+#contanier #content .tu2 {
+    float: left;
+    width: 1140px;
+    height: 290px;
+    /*265*/
+    margin-top: 36px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+}
+
+#contanier #content .tu2 a {
+    display: block;
+    width: 265px;
+    height: 290px;
+    float: left;
+    margin-left: 26px;
+}
+
+#contanier #content .tu2 img {
+    width: 265px;
+    height: 150px;
+}
+
+#contanier #content .tu2 a:first-child {
+    margin-left: 0;
+}
+
+#contanier #content .tu2 a:last-child {
+    float: right;
+}
+
+#contanier #content .tu2 .tu2l {
+    margin-top: -7px;
+    width: 235px;
+    height: 114px;
+    border: 1px solid #f0f0f0;
+    border-top: none;
+    padding: 14px;
+    color: #444444;
+    font-size: 14px;
+}
+
+#contanier #content .tu2 .tu2l {
+    margin-top: -3px;
+}
+
+#contanier #content .tu2 .tu2l div:nth-child(1) {
+    height: 16px;
+    line-height: 16px;
+    margin-top: 2px;
+}
+
+#contanier #content .tu2 .tu2l div:nth-child(2) {
+    height: 16px;
+    line-height: 16px;
+    color: #666;
+    margin-top: 15px;
+    margin-bottom: 28px;
+}
+
+#contanier #content .tu2 .tu2l div:nth-child(3) {
+    height: 38px;
+    border-radius: 4px;
+    line-height: 38px;
+    text-align: center;
+    background-color: #15c288;
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+#contanier #content .tu2 a img {
+    transition: opacity 1s;
+}
+
+#contanier #content .tu2 a:hover img {
+    opacity: 0.5;
+}
+
+#contanier #content .tu2 a:hover .tu2l2,
+#contanier #content .tu2 a:hover .tu2l1 {
+    color: green;
+}
+
+#contanier #content .tu2 a:hover .tu2l3 {
+    background-color: #15c333;
+}
+
+#contanier #content #banjiji .gengduo {
+    width: 60px;
+    height: 25px;
+    border: 1px solid #999;
+    border-radius: 20px;
+    margin: 20px 0;
+    float: right;
+    font-size: 12px;
+    line-height: 25px;
+    color: #666;
+}
+
+#contanier #content #banjiji .gengduo span {
+    margin-left: 18px;
+}
+
+
+/*话题精选的css样式*/
+
+#contanier #content .box {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f6f6f6;
+}
+
+#contanier #content .box .bannerm {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+#contanier #content .box .bannerm .jingxuan {
+    height: 28px;
+    width: 1140px;
+    margin-top: 60px;
+    float: left;
+    position: relative;
+}
+
+#contanier #content .box .bannerm .jingxuan .hrl {
+    float: left;
+    position: absolute;
+    top: 14px;
+}
+
+#contanier #content .box .bannerm .jingxuan .huati {
+    font-size: 24px;
+    line-height: 28px;
+    position: absolute;
+    left: 522px;
+}
+
+#contanier #content .box .bannerm .jingxuan .hrr {
+    float: left;
+    position: absolute;
+    top: 14px;
+    right: 0;
+}
+
+#contanier #content .box .bannerm .jingtu {
+    float: left;
+    height: 279px;
+    width: 1140px;
+    margin-top: 36px;
+}
+
+#contanier #content .box .bannerm .jingtu li {
+    float: left;
+    width: 279px;
+    height: 279px;
+    margin-left: 8px;
+    overflow: hidden;
+    position: relative;
+}
+
+#contanier #content .box .bannerm .jingtu li:nth-child(1) {
+    margin-left: 0;
+}
+
+#contanier #content .box .bannerm .jingtu li img {
+    transition: transform 1s;
+}
+
+#contanier #content .box .bannerm .jingtu li:hover img {
+    transform: scale(1.1);
+}
+
+#contanier #content .box .bannerm .jingtu li:hover .neibu {
+    transform: translateY(10px);
+}
+
+#contanier #content .box .bannerm .jingtu a {
+    color: #fff;
+}
+
+#contanier #content .box .bannerm .jingtu a .neibu {
+    display: block;
+    width: 226px;
+    height: 77px;
+    position: absolute;
+    left: 28px;
+    bottom: 15px;
+    transition: transform 1s;
+    text-align: center;
+}
+
+#contanier #content .box .bannerm .jingtu a .neibu div {
+    margin-bottom: 10px;
+}
+
+#contanier #content .box .bannerm .jingtu a .neibu i {
+    display: inline-block;
+    font-style: normal;
+    width: 6px;
+    height: 9px;
+    border: 1px solid #fff;
+    margin: 0 10px 0 2px;
+}
+
+#contanier #content .box .bannerm .jingtu a .neibu .luan {
+    float: left;
+}
+
+#contanier #content .box .bannerm .jingtu a .neibu .ri {
+    float: right;
+}
+
+#contanier #content .box .bannerm .gengduo {
+    width: 60px;
+    height: 25px;
+    border: 1px solid #999;
+    border-radius: 20px;
+    margin: 20px 0;
+    float: right;
+    font-size: 12px;
+    line-height: 25px;
+    color: #666;
+}
+
+#contanier #content .box .bannerm .gengduo span {
+    margin-left: 18px;
+}
+
+
+/*认证一栏*/
+
+.boxx {
+    width: 100%;
+    height: 320px;
+    /*background-color: #9B410E;*/
+}
+
+#contanier #content.boxx .bannerb {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.bannerb .renzheng {
+    height: 28px;
+    width: 1140px;
+    margin-top: 60px;
+    float: left;
+    position: relative;
+}
+
+.bannerb .renzheng .hrl {
+    float: left;
+    position: absolute;
+    top: 14px;
+}
+
+.bannerb .renzheng .renz {
+    font-size: 24px;
+    line-height: 28px;
+    position: absolute;
+    left: 522px;
+}
+
+.bannerb .renzheng .hrr {
+    float: left;
+    position: absolute;
+    top: 14px;
+    right: 0;
+}
+
+.bannerb .daren {
+    float: left;
+    margin-top: 36px;
+}
+
+.bannerb .daren li {
+    float: left;
+    width: 358px;
+    height: 144px;
+    border: 1px solid #f0f0f0;
+    margin-left: 30px;
+}
+
+.bannerb .daren li:nth-child(1) {
+    margin-left: 0;
+}
+
+.bannerb .daren img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px 15px 0 20px;
+    overflow: hidden;
+    transition: transform 1s;
+}
+
+.bannerb .daren img:hover {
+    transform: scale(1.2);
+}
+
+.bannerb .daren .imbox {
+    float: left;
+    width: 208px;
+    height: 97px;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.bannerb .daren .imbox .im1 {
+    margin-bottom: 9px;
+    color: #15c288;
+}
+
+.bannerb .daren .imbox .im2 {
+    width: 95px;
+    height: 32px;
+    line-height: 32px;
+    background-color: #ff9439;
+    border-radius: 15px;
+    margin-bottom: 19px;
+    color: #fff;
+}
+
+.bannerb .daren .imbox .im2 span {
+    display: block;
+    float: left;
+    width: 5px;
+    height: 7px;
+    border: 1px solid #fff;
+    margin-left: 15px;
+    margin-top: 12px;
+    margin-right: 0;
+}
+
+.bannerb .daren .imbox .im3 {
+    color: #616161;
+}
+
+.bannerb .gengduo {
+    width: 84px;
+    height: 25px;
+    border: 1px solid #999;
+    border-radius: 20px;
+    margin: 20px 0 50px 0;
+    float: right;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.gengduo a {
+    color: #666;
+}
+
+.bannerb .gengduo span:nth-child(1) {
+    margin-left: 18px;
+    float: left;
+}
+
+.bannerb .gengduo1 {
+    margin-right: 15px;
+}

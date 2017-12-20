@@ -1,0 +1,44 @@
+body{
+    background-color: white;
+}
+.header .header-left li.wenzhang{
+    background-color: #ED7D31;
+}
+.overall{width:1080px; margin: 0px auto; overflow:hidden;}
+.overall .left{float:left;width:750px;height:auto;overflow:hidden;}
+.overall .right{ width:300px; float:right;overflow:hidden; }
+.xnews2{width:750px; border-bottom: 1px solid #e5e5e5; clear: both; overflow: hidden;  padding-bottom: 30px ;margin-bottom: 30px;}
+.xnew21{
+    margin-top: 20px;
+}
+.xnews2 h3{ font: 21px/1.2 "微软雅黑","黑体"; height: 30px; overflow: hidden;font-weight:400;width:510px;white-space:nowrap;-o-text-overflow: ellipsis; text-overflow:ellipsis;}
+.xnews2 h3 b{font-weight:400}
+.xnews2 .pic {width:230px; height:200px;overflow:hidden;float:left}
+
+.xnews2 .dec{float:right;width:500px;overflow:hidden;color:#8c8c8c;font-size:12px;line-height:22px}
+.xnews2 .dec h3{height: 30px; overflow: hidden;font-weight:400;font-size:20px}
+.xnews2 .dec h3 a{color:#222;}
+.xnews2 .dec p{padding-top:15px;font-size: 14px}
+.xnews2 .time {font-size:12px;color:#bbb;padding-top:10px;}
+.xnews2 .time a{background-color: #f2f2f2; border: 1px solid #e8e8e8;    display: inline-block;    height: 24px;    line-height: 24px; padding: 0 10px;    border-radius: 10px;   margin-top:10px; margin-right: 10px;    color: #999;}
+.xnews2 .time a:hover{color:#cc002c}
+
+.pagination li {
+    float: left;
+    margin-left: 20px;
+    background-color:  #FCF8E3;
+
+    text-align: center;
+    line-height: 40px;
+}
+.pagination li:hover{
+    background-color:  #9B410E;
+}
+.pagination .active{
+    background-color:  #a9bd4f;
+}
+.pagination a,span{
+    width: 40px;
+    height: 40px;
+    display: block;
+}
